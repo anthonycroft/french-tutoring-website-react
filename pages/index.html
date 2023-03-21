@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVE40V7LWT"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+ 
+     gtag('config', 'G-PVE40V7LWT');
+   </script>
+  <!-- <link rel="stylesheet" href="styles/reset.css" /> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> 
+  <!-- <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>     alt font  -->
+  <!-- Fontawesome Kit's Code to add a download icon -->
+  <script src="https://kit.fontawesome.com/7408c6667b.js" crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../assets/css/style.css" /> 
+
+
+  <title>French with Bertrand</title>
+</head>
+
+<body>
+  
+  <!-- <div class="top-circle"> -->
+    
+</div>
+
+   <!-- Modal: pop-up window prompting site version selection -->
+   <div class="container">
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Bienvenue! Welcome to French with Bertrand.
+              <br>Please select what you are most interested in:
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body container">
+            <div class="row">
+              <label for="" class="col-8" >French For Business</label>
+              <input type="radio" name="styling" value="1" class="col-2">
+            </div>
+
+            <div class="row">
+              <label for="" class="col-8">French For Kids</label>
+              <input type="radio" name="styling" value="2" class="col-2">
+            </div>
+            <div class="row">
+              <label for="" class="col-8">French For Fun</label>
+              <input type="radio" name="styling" value="3" class="col-2">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button id="save-modal" type="button" class="btn btn-primary">Save changes</button>
+            <button id="close-modal" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+
+<!-- Header semantic tag: defines the content at the top of the page -->  
+<header>
+<!-- Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light  nav justify-content-center mb-5 nav-bar-container">
+  <div class="container nav-bar-container">
+    <img class="navbar-brand" src="../assets/images/Caramba-logo.png" height="60vh">
+
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+     <a class="nav-link nav-text" href="#book">Book</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav-text" href="#about">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav-text" href="#options">Plans and Pricing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav-text" href="#testimonials">Testimonials</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link nav-text" href="#contact-us">Contact Me</a>
+    </li>
+  </ul>
+</div>
+  </nav>
+</header>
+  <!-- Navbar end-->
+
+      
+<!-- Main semantic tag: defines content specific to this page -->
+<main>
+<!-- Jumbotron fun page start-->
+<div class="jumbotron" id="fun">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-md-center align-items-sm-center">
+          <h1 class="display-4 text-center first-header">Parlez-vous français?</h1>
+          <p class="lead text-center first-p">Not yet? Parfait! Book your free French class today and start speaking the language of Molière (or be able to order an apéritif in a Parisian bar)!</p>
+
+          <!-- video start-->
+          <div id="youtube-container"></div>
+          <!-- video end-->
+        </div>
+
+        
+  
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex flex-column align-items-lg-end align-items-md-center align-items-center" >
+          <div class="calendly-inline-widget " id="book" data-url="https://calendly.com/teamcarambatesting/1-2-1-tutoring-session-free-trial" style= " width:500px; height:550px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        </div>
+      </div>
+  
+      <div class="row mt-4">
+        <div class="col"></div>
+        <div class="col-lg-8 col-md-12 col-sm-12 d-flex flex-column">
+          <!-- video start-->
+          <div id="youtube-container"></div>
+          <!-- video end-->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+      <div class="row mt-4">
+        <div class="col"></div>
+        <div class="col-8">
+          <!-- video start-->
+          <div id="youtube-container"></div>
+          <!-- video end-->
+        </div>
+      </div>
+    </div>
+  </div>
+<!---  Jumbotron fun page end-->
+
+
+<!-- About Section-->
+<section class="jumbotron-1 about-Bertrand container" id="about">
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <img class= "Bertrand-icon" src="../assets/images/Bertrand-Icon.png" alt= "Bertrand's emoticon" style="max-height: 300px">  
+    <h1 class="display-4 text-center about-Bertrand-h1 section-heading">French à la carte with Bertrand</h1>
+    <p class="lead text-center">Your knowledge of French is limited to "croissant", "baguette" or "champagne" but you're hungry to speak more? Read on.</p>
+    <p class="lead text-center">I will support you to discover the subtleties of the language of Balzac, and get immersed in the French culture along the way. Because learning a language takes time, but it also takes motivation. And let's be honest, it can get boring very quickly. So why not make learning fun and combine it with getting to know the French culture - be it the cuisine of all French regions (I promise we don't just eat frogs' legs!), or French cinema or music?</p>
+    <p class="lead text-center">Ready to start you French aventure? Allons-y!</p>
+    <div class="text-center">
+    <img src="../assets/images/af-piccy.png" alt= "alliance francaise logo" height="80vh">
+  </div>
+  </div>
+</section>
+<!-- About end-->
+
+
+<!-- cards Section-->
+<!-- card 1-->
+<div class="container" id="options">
+  <div class="row">
+    <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column align-items-md-center align-items-center">
+<div class="card mb-5 mt-5" style="width: 15rem; height: 25rem;">
+  <div class="card-body">
+    <h5 class="card-title text-center">Package "Apéritif"</h5>
+    <h6 class="card-subtitle mb-2 text-muted text-center">Free 30-minute trial</h6>
+    <p class="card-text text-center">Short and sweet - book your free 30-minute trial and start speaking French like the French. Salutations!</p>
+    <div class="text-center">
+      <button type="button" class="btn btn-secondary btn-sm button-font btn1"><a href="https://calendly.com/teamcarambatesting/1-2-1-tutoring-session-free-trial">Book now</a></button>  
+    </div>  <!-- button text center end-->
+  </div>
+</div>
+</div> <!-- column end-->
+<!-- card 1 end-->
+
+<!-- card 2-->
+<div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column align-items-md-center align-items-center">
+<div class="card mb-5 mt-5" style="width: 15rem; height: 25rem;">
+  <div class="card-body">
+    <h5 class="card-title text-center">Package "Crêpe"</h5>
+    <h6 class="card-subtitle mb-2 text-muted text-center">Pay as you go</h6>
+    <p class="card-text text-center">Not sure how much time you can commit to learning French? Often out of town? Choose the flexible "pay as you go" option to only book classes that fit your busy schedule.</p>
+    <p class="card-text text-center">£35/h</p>
+    <div class="text-center">
+    <button type="button" class="btn btn-secondary btn-sm button-font"><a href="https://form.jotform.com/230464330195350">Get in touch</a></button>
+    </div>  <!-- button text center end-->
+  </div>
+</div>
+</div> <!-- card 2 end-->
+<!-- card 2 end-->
+
+
+<!-- card 3-->
+<div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column align-items-md-center align-items-center">
+  <div class="card mb-5 mt-5" style="width: 15rem; height: 25rem;">
+    <div class= chart_best_value> Best Value</div>
+    <div class="card-body card-body-3">
+      <h5 class="card-title text-center">Package "Ratatouille"</h5>
+      <h6 class="card-subtitle mb-2 text-muted text-center">Monthly subscription</h6>
+      <p class="card-text text-center">Looking for regular weekly classes to speak French as quickly as possible? Opt for the monthly subscription and book 8 hourly classes that can fit within your schedule. </p>
+      <p class="card-text text-center">£200/month (8 hours)</p>
+      <div class="text-center">
+          <button type="button" class="btn btn-secondary btn-sm"><a href="https://form.jotform.com/230464330195350">Get in touch</a></button>
+        </div>  <!-- button text center end-->    </div>
+  </div>
+  </div>
+  <!-- card 3 end-->
+
+</div> <!-- row end-->
+</div> <!-- container end-->
+<!-- card section end-->
+
+<!-- Section semantic tag: groups related content into sections-->
+<!-- Testimonial section-->
+<section class="jumbotron testimonials" id="testimonials">
+  <div class="container">
+    <h1 class="display-4 text-center test-video section-heading">Testimonials</h1>
+    <div style="text-align: center; margin: 0 auto; width: 100%; min-width: 200px;"><div style="position: relative; width: 100%; overflow: hidden; background-color: transparent;"><iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" allowtransparency="true" width="100%" frameborder="0" loading="lazy" name="vocalvideo_647" scrolling="no" sandbox="allow-same-origin allow-scripts allow-popups allow-forms" src="https://vocalvideo.com/embed/v1/galleries/647" title="Vocal Video" style="background: transparent; position: relative; width: 1%; min-width: 100%; height: 80vh; z-index: 1; display: block;"></iframe><script src="https://vocalvideo.com/embed/v1/host.js" defer="defer" type="text/javascript"></script></div></div>
+  </div>
+</section>
+
+<!-- Images section-->
+<section class="jumbotron food">
+  <div class="container">
+    <h1 class="display-4 text-center cuisine-heading section-heading">Plat du jour</h1>
+    <div class="container baguette-div"></div>
+    <!-- <p class="lead baguette-description text-center">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 h-100 text-center mx-auto">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item mr-3">
+                        <a href="http://unhommeapoele.blogspot.com/">
+                          <i class="fa-brands fa-2x fa-blogger"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-3" id="contact-us">
+                        <a href="mailto:teamcarambatesting@gmail.com">
+                            <i class="fa-regular fa-2x fa-envelope" id="footer-icon"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item mr-3">
+                        <a href="https://www.pinterest.fr/unhommeapoele/">
+                          <i class="fa-brands fa-2x fa-square-pinterest"></i>
+                        </a>
+                    </li>
+                    <br>
+                    <li class="list-inline-item mr-3">
+                      <a class="nav-link privacy-policy-link" href="privacy.html">Privacy Policy</a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-4 mb-lg-0" id="copyright">&copy; teamCaramba 2023. Coded in London, Cambridge, Preston and Baltimore.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+  <!-- Footer end-->
+
+ 
+<!-- Pill navigation (Theme selector): Aside semantic tag --> -->
+<aside class="container" id="theme-buttons">
+  <div class="row">
+
+    <ul class="nav nav-pills nav-justified">
+      <li class="nav-item  p-1">
+        <a class="nav-link business themer active" data-number = "1" id="theme-btn-one" aria-current="page" href="business.html">Business</a>
+      </li>
+      <li class="nav-item  p-1">
+        <a class="nav-link kids themer " data-number = "2" id="theme-btn-two" href="kids.html">Kids</a>
+      </li>
+      <li class="nav-item  p-1">
+        <a class="nav-link fun themer" data-number = "3" id="theme-btn-three" href="index.html">Fun</a>
+      </li>
+    </ul>
+  </div>
+</aside>
+
+
+<!-- This is the separate module only linked to the index.html page, for the initial modal functionality and to prevent an infinite loop of page redirects -->
+<script src="../assets/js/switching.js"></script>
+
+<!-- COPY/IMPORT THE JAVASCRIPT THAT WE WANT TO RETAIN, TO THIS FILE. -->
+<script src="../assets/js/script.js" defer></script>
+<!-- code for tracking on site behaviour -->
+<script type="text/javascript">
+  window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.defer = true;
+    mf.src = "//cdn.mouseflow.com/projects/1b7e5472-a97e-47cf-becf-480c156bab03.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
+</script>
+
+</body>
+
+</html>

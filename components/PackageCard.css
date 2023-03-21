@@ -1,0 +1,86 @@
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Bootstrap layout classes */
+  @media (min-width: 992px) {
+    width: 33.33333%;
+    max-width: 33.33333%;
+    flex: 0 0 33.33333%;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+/* card should have classes of mb-5 mt-5" style="width: 15rem; height: 25rem;" */
+
+.card {
+  width: 15rem;
+  height: 25rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+/* 3-Tier Price Cards */
+.card-title {
+  /* background-image: linear-gradient(to bottom right, #87CEFA	); */
+  /* background-color: #db3347; */
+  border-radius: 20px;
+}
+
+.card { 
+  border-radius: 25px;
+  border: 1px solid #1fb1d6;
+}
+
+.card-body {
+  border-radius: 25px;
+  /* border: 1px solid #1fb1d6; */
+  /* background-image: linear-gradient(to bottom right, #87CEFA	);  */
+}
+
+button {
+  background-color: #EA5555;
+  border-radius: 15px;
+  border: 1px solid #EA5555;
+  position: relative;
+  top: 10px;
+  height: 40px;
+  width: 150px;
+  text-transform: uppercase;
+
+}
+
+.button-font {
+  color:#ffffff;
+}
+
+
+.btn1 {
+  top: 98px;
+}
+
+.card{
+  width: 13rem; 
+  height: 20rem;
+}
