@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useState, useEffect } from "react";
 // 1. [X ] App
 // 2. [ X] Header
-import Home from '../pages/Fun';
+import Fun from './pages/Index';
 import Business from './pages/Business';
-import KIds from './pages/Kids';
+import Kids from './pages/Kids';
 
-import PackageCard from '../components/packageCard';
+import PackageCard from './components/PackageCard';
 
 // import Header from "./components/Header"; -------> TO DO  
 // import Footer from './pages/Footer'; -------> TO DO
@@ -19,13 +19,9 @@ import PackageCard from '../components/packageCard';
 
 function App() {
 
-  useEffect(() => {
-    setProjects(projectsData);
-  }, []);
-
   return (
     <div className="App">
-      <Router>
+      {/* <Router>
         <div>
             <Header title={siteTitle}/>
             <Routes>
@@ -35,7 +31,7 @@ function App() {
               <Route path="*" element={<NotFound/>} />
             </Routes>
         </div>
-      </Router>
+      </Router> */}
     </div>
   );
 }
