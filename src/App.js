@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import Fun from './pages/Index';
 import Business from './pages/Business';
 import Kids from './pages/Kids';
+import Header from './components/Header';
 
 import PackageCard from './components/PackageCard';
 
@@ -17,21 +18,24 @@ import PackageCard from './components/PackageCard';
 // import Carousel from './pages/Carousel'; -------> TO DO
 // import Modal from './pages/Modal'; -------> TO DO
 
+const title = "Welcome to the Home Page";
+const siteTitle = "Welcome to the Fun Page";
+
 function App() {
 
   return (
     <div className="App">
-      {/* <Router>
+      <Router>
         <div>
-            <Header title={siteTitle}/>
+            <Header siteTitle={siteTitle}/>
             <Routes>
-              <Route path="/" element={<Home title={title}/>} />
-              <Route path="/business" element={<Contact contactTitle1={contactTitle1} contactTitle2={contactTitle2} email={email}/>} />
+              <Route path="/" element={<Fun title={title}/>} />
+              {/* <Route path="/business" element={<Contact contactTitle1={contactTitle1} contactTitle2={contactTitle2} email={email}/>} />
               <Route path="/kids" element={<Kids/>} />
-              <Route path="*" element={<NotFound/>} />
+              <Route path="*" element={<NotFound/>} /> */}
             </Routes>
         </div>
-      </Router> */}
+      </Router>
     </div>
   );
 }
