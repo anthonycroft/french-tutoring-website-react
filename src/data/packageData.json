@@ -1,0 +1,29 @@
+[
+  { "id": 1,
+    "title": "Package \"Apéritif\"",
+    "subTitle": "Free 30-minute trial",
+    "description": "Short and sweet - book your free 30-minute trial and start speaking French like the French. Salutations!",
+    "rate": "Free",
+    "btnMsg": "Book Now",
+    "link": "https://calendly.com/teamcarambatesting/1-2-1-tutoring-session-free-trial",
+    "bestValue": false
+  },
+  { "id": 2,
+    "title": "Package \"Crêpe\"",
+    "subTitle": "Pay as you go",
+    "description": "Not sure how much time you can commit to learning French? Often out of town? Choose the flexible \"pay as you go\" option to only book classes that fit your busy schedule.",
+    "rate": "£35/hour",
+    "btnMsg": "Get in touch",
+    "link": "https://form.jotform.com/230464330195350",
+    "bestValue": false
+  },
+  { "id": 3,
+    "title": "Best Value",
+    "subTitle": "Package \"Ratatouille\"",
+    "description": "Looking for regular weekly classes to speak French as quickly as possible? Opt for the monthly subscription and book 8 hourly classes that can fit within your schedule.",
+    "rate": "£200/month (8 hours)",
+    "btnMsg": "Get in touch",
+    "link": "https://form.jotform.com/230464330195350",
+    "bestValue": true
+  }
+]
