@@ -8,6 +8,7 @@ import NotFound from "./pages/NotFound";
 
 // import components
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 // import css
 
