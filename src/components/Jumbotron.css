@@ -1,13 +1,16 @@
 /* Jumbotron a.k.a content section */
 .jumbotron {
+    
     background-color: #EA5555;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 60px 60px 60px 60px;
     
 
 }
+
 
 
 #youtube-container {
