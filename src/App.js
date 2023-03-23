@@ -5,6 +5,13 @@ import Fun from './pages/Fun';
 import Business from './pages/Business';
 import Kids from './pages/Kids';
 import NotFound from './pages/NotFound';
+
+
+// import components
+import Navbar from './components/Navbar';
+
+// import css
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // import data
@@ -30,13 +37,13 @@ function App() {
     <div className="App">
       <Router>
         <div>
-            {/* <Header siteTitle={siteTitle}/> */}
-            <Routes>
-              <Route path="/" element={<Fun rateCards={standardPackageData} />} />
-              <Route path="/business" element={<Business rateCards={standardPackageData}/>} />
-              <Route path="/kids" element={<Kids rateCards={kidsPackageData}/>} />
-              <Route path="*" element={<NotFound/>} />
-            </Routes>
+
+          <Routes>
+            <Route path="/" element={<Fun rateCards={standardPackageData}/>} />
+            <Route path="/business" element={<Business rateCards={standardPackageData}/>} />
+            <Route path="/kids" element={<Kids rateCards={kidsPackageData}/>} />
+            <Route path="*" element={<NotFound/>} />
+          </Routes>
         </div>
       </Router>
     </div>
@@ -45,3 +52,4 @@ function App() {
 
 export default App;
 
+{/* <Navbar navbarElements={navbarData}/> */}
