@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "link": "http://unhommeapoele.blogspot.com/",
+    "icon": "fa-brands fa-2x fa-blogger"
+  },
+  {
+    "id": 2,
+    "link": "mailto:teamcarambatesting@gmail.com",
+    "icon": "fa-regular fa-2x fa-envelope"
+  },
+  {
+    "id": 3,
+    "link": "https://www.pinterest.fr/unhommeapoele/",
+    "icon": "fa-brands fa-2x fa-square-pinterest"
+  }
+]

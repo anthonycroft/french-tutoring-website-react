@@ -6,6 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import carambaLogo from "../assets/images/Caramba-logo.png";
 import UnsplashImg from "../components/UnsplashImg";
 import Jumbotron from "../components/Jumbotron";
+import Footer from "../components/Footer";
+import footerData from "../data/footerData.json";
 const Business = (props) => {
   return (
     <>
@@ -46,6 +48,32 @@ const Business = (props) => {
           </div>
         </div>
       </section>
+
+      <footer class="footer" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 h-100 text-center mx-auto">
+              <ul class="list-inline mb-2">
+                {footerData.map((footer) => (
+                  <Footer {...footer} />
+                ))}
+              </ul>
+              <div class="list-inline-item mr-3">
+                <a
+                  class="nav-link privacy-policy-link"
+                  href="https://beazach.github.io/french-tutoring-website/privacy.html"
+                >
+                  Privacy Policy
+                </a>
+                <p class="text-muted small mb-4 mb-lg-0" id="copyright">
+                  &copy; teamCaramba 2023. Coded in Cambridge, Headley Down,
+                  London, Preston and Watford.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   );
 };
