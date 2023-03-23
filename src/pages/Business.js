@@ -4,7 +4,7 @@ import navbarData from '../data/navbarData.json';
 import Navbar from '../components/Navbar';
 import "bootstrap/dist/css/bootstrap.min.css";
 import carambaLogo from "../assets/images/Caramba-logo.png"
-
+import UnsplashImg from "../components/UnsplashImg";
 const Business = (props) => { 
   return (
     <>
@@ -27,6 +27,16 @@ const Business = (props) => {
           ))}
         </div>
       </div>
+    
+
+    <section class="jumbotron food">
+<div class="container">
+  <h1 class="display-4 text-center cuisine-heading section-heading">Réunion d'affaires</h1>
+  <div class="container baguette-div">
+    <UnsplashImg query="business-meeting" />
+  </div>
+</div>
+</section>
     </>
   )
 }
