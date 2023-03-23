@@ -1,16 +1,18 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // 1. [X ] App
 // 2. [ X] Header
-import Index from './pages/Index';
+import Index from "./pages/Index";
 // import Business from './pages/Business';
 // import Kids from './pages/Kids';
-import Header from './components/Header';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import Header from './components/Header';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import packageData from './data/packageData.json';
+import packageData from "./data/packageData.json";
+import navbarData from "./data/navbarData.json";
+import Navbar from "./components/Navbar";
 
-// import Header from "./components/Header"; -------> TO DO  
+// import Header from "./components/Header"; -------> TO DO
 // import Footer from './pages/Footer'; -------> TO DO
 // import Jumbotron from './pages/Jumbotron'; -------> TO DO
 // import Pill Navigattion from './pages/PillNavigation'; -------> TO DO
@@ -20,23 +22,23 @@ import packageData from './data/packageData.json';
 // import Modal from './pages/Modal'; -------> TO DO
 
 // const title = "Welcome to the Home Page";
-const siteTitle = "Welcome to the Fun Page";
+//const siteTitle = "Welcome to the Fun Page";
 
 function App() {
-
   // const listOfChars = packageData.map((char, i) => <Character {...char} key={i} />)
 
   return (
     <div className="App">
       <Router>
         <div>
-            <Header siteTitle={siteTitle}/>
-            <Routes>
-              <Route path="/" element={<Index rateCards={packageData} />} />
-              {/* <Route path="/business" element={<Contact contactTitle1={contactTitle1} contactTitle2={contactTitle2} email={email}/>} />
+          <Navbar siteTitle={navbarData} />
+          <Routes>
+            <Route path="/" element={<Index rateCards={packageData} />} />
+            <Route path="/" element={<Index navbarElements={navbarData} />} />
+            {/* <Route path="/business" element={<Contact contactTitle1={contactTitle1} contactTitle2={contactTitle2} email={email}/>} />
               <Route path="/kids" element={<Kids/>} />
               <Route path="*" element={<NotFound/>} /> */}
-            </Routes>
+          </Routes>
         </div>
       </Router>
     </div>
@@ -44,4 +46,3 @@ function App() {
 }
 
 export default App;
-

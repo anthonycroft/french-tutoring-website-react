@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Book",
+    "image": "assests/images/Caramba-logo.png"
+  },
+  {
+    "id": 2,
+    "title": "Book",
+    "link": "#book"
+  },
+  {
+    "id": 3,
+    "title": "About Me",
+    "link": "https://form.jotform.com/230464330195350"
+  },
+  {
+    "id": 4,
+    "title": "Pland and Pricing",
+    "link": "https://form.jotform.com/230464330195350"
+  },
+  {
+    "id": 5,
+    "title": "Testimonials",
+    "link": "href=#testimonials"
+  },
+  {
+    "id": 6,
+    "title": "Contact Me",
+    "link": "href=#contact-us"
+  }
+]
