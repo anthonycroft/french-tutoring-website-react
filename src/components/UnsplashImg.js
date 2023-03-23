@@ -35,7 +35,7 @@ const UnsplashImg = function(props){
                 <img
                     className="unsplash-img"
                     src={fullURL || "https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-4.0.3&q=80&cs=tinysrgb&fm=jpg&crop=entropy"}
-                    alt="business meeting"
+                    alt="Cover photo from an Unsplash photo collection"
                 />
                 </div>
             )}
