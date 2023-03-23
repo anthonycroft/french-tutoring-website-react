@@ -1,8 +1,8 @@
 import React from "react";
 import PackageCard from '../components/PackageCard';
-
+import UnsplashImg from "../components/UnsplashImg";
 const Kids = (props) => { 
-  return (
+  return (<>
     <div className="container">
       <div className="row">
         {props.rateCards.map((card) => (
@@ -12,6 +12,16 @@ const Kids = (props) => {
         ))}
       </div>
     </div>
+
+<section class="jumbotron food">
+<div class="container">
+  <h1 class="display-4 text-center cuisine-heading section-heading">Tintin</h1>
+  <div class="container baguette-div">
+    <UnsplashImg query="tintin" />
+  </div>
+</div>
+</section>
+</>
   )
 }
 

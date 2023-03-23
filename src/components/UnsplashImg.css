@@ -1,0 +1,12 @@
+/* .unsplash-img {
+  
+   
+    height: 300px;
+    aspect-ratio: 16/9;
+} */
+
+.unsplash-img {
+    width: 400px;
+    max-width: 80vw;
+    padding-bottom: 20px;
+}
