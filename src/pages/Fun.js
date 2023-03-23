@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import carambaLogo from "../assets/images/Caramba-logo.png";
 import UnsplashImg from "../components/UnsplashImg";
 import Jumbotron from "../components/Jumbotron";
-const Kids = (props) => {
+const Fun = (props) => {
   return (
     <>
       <div class="navbar navbar-expand-lg navbar-light nav justify-content-center mb-5 nav-bar-container">
@@ -39,10 +39,10 @@ const Kids = (props) => {
       <section class="jumbotron food">
         <div class="container">
           <h1 class="display-4 text-center cuisine-heading section-heading">
-            Tintin
+            Plat du jour
           </h1>
           <div class="container baguette-div">
-            <UnsplashImg query="tintin" />
+            <UnsplashImg query="french-pastries" />
           </div>
         </div>
       </section>
@@ -50,4 +50,4 @@ const Kids = (props) => {
   );
 };
 
-export default Kids;
+export default Fun;
