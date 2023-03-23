@@ -25,4 +25,5 @@ const Fun = (props) => {
     </>
   );
 };
+
 export default Fun;

@@ -1,16 +1,14 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import pages
+import Fun from './pages/Fun';
+import Business from './pages/Business';
+import Kids from './pages/Kids';
+import NotFound from './pages/NotFound';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-// 1. [X ] App
-// 2. [ X] Header
-import Index from "./pages/Fun";
-// import Business from './pages/Business';
-// import Kids from './pages/Kids';
-//import Header from './components/Header';
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import packageData from "./data/packageData.json";
-import navbarData from "./data/navbarData.json";
-import Navbar from "./components/Navbar";
+// import data
+import standardPackageData from './data/standardPackageData.json';
+import kidsPackageData from './data/kidsPackageData.json';
 
 // import Header from "./components/Header"; -------> TO DO
 // import Footer from './pages/Footer'; -------> TO DO
@@ -25,8 +23,6 @@ import Navbar from "./components/Navbar";
 //const siteTitle = "Welcome to the Fun Page";
 
 function App() {
-  // const listOfChars = packageData.map((char, i) => <Character {...char} key={i} />)
-
   return (
     <div className="App">
       <Router>
