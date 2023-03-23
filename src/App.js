@@ -1,25 +1,23 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
 // import pages
-import Fun from './pages/Fun';
-import Business from './pages/Business';
-import Kids from './pages/Kids';
-import NotFound from './pages/NotFound';
-
+import Fun from "./pages/Fun";
+import Business from "./pages/Business";
+import Kids from "./pages/Kids";
+import NotFound from "./pages/NotFound";
 
 // import components
-import Navbar from './components/Navbar';
+import Navbar from "./components/Navbar";
 
 // import css
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // import data
-import standardPackageData from './data/standardPackageData.json';
-import kidsPackageData from './data/kidsPackageData.json';
+import standardPackageData from "./data/standardPackageData.json";
+import kidsPackageData from "./data/kidsPackageData.json";
 
-
-// import Header from "./components/Header"; -------> TO DO  
+// import Header from "./components/Header"; -------> TO DO
 // import Footer from './pages/Footer'; -------> TO DO
 // import Jumbotron from './pages/Jumbotron'; -------> TO DO
 // import Pill Navigattion from './pages/PillNavigation'; -------> TO DO
@@ -32,17 +30,21 @@ import kidsPackageData from './data/kidsPackageData.json';
 const siteTitle = "Welcome to the Fun Page";
 
 function App() {
-
   return (
     <div className="App">
       <Router>
         <div>
-
           <Routes>
-            <Route path="/" element={<Fun rateCards={standardPackageData}/>} />
-            <Route path="/business" element={<Business rateCards={standardPackageData}/>} />
-            <Route path="/kids" element={<Kids rateCards={kidsPackageData}/>} />
-            <Route path="*" element={<NotFound/>} />
+            <Route path="/" element={<Fun rateCards={standardPackageData} />} />
+            <Route
+              path="/business"
+              element={<Business rateCards={standardPackageData} />}
+            />
+            <Route
+              path="/kids"
+              element={<Kids rateCards={kidsPackageData} />}
+            />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </Router>
@@ -52,4 +54,6 @@ function App() {
 
 export default App;
 
-{/* <Navbar navbarElements={navbarData}/> */}
+{
+  /* <Navbar navbarElements={navbarData}/> */
+}
