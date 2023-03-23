@@ -3,7 +3,7 @@ import PackageCard from "../components/PackageCard";
 import Navbar from "../components/Navbar";
 import navbarData from "../data/navbarData.json";
 
-const Index = (props) => {
+const Fun = (props) => {
   return (
     <>
       {props.navbarData.map((nav) => (
@@ -25,5 +25,4 @@ const Index = (props) => {
     </>
   );
 };
-
-export default Index;
+export default Fun;

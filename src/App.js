@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // 1. [X ] App
 // 2. [ X] Header
-import Index from "./pages/Index";
+import Index from "./pages/Fun";
 // import Business from './pages/Business';
 // import Kids from './pages/Kids';
 //import Header from './components/Header';
