@@ -1,14 +1,16 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-// 1. [X ] App
-// 2. [ X] Header
-import Index from './pages/Index';
-// import Business from './pages/Business';
-// import Kids from './pages/Kids';
-import Header from './components/Header';
+// import pages
+import Fun from './pages/Fun';
+import Business from './pages/Business';
+import Kids from './pages/Kids';
+import NotFound from './pages/NotFound';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import packageData from './data/packageData.json';
+// import data
+import standardPackageData from './data/standardPackageData.json';
+import kidsPackageData from './data/kidsPackageData.json';
+
 
 // import Header from "./components/Header"; -------> TO DO  
 // import Footer from './pages/Footer'; -------> TO DO
@@ -24,18 +26,16 @@ const siteTitle = "Welcome to the Fun Page";
 
 function App() {
 
-  // const listOfChars = packageData.map((char, i) => <Character {...char} key={i} />)
-
   return (
     <div className="App">
       <Router>
         <div>
-            <Header siteTitle={siteTitle}/>
+            {/* <Header siteTitle={siteTitle}/> */}
             <Routes>
-              <Route path="/" element={<Index rateCards={packageData} />} />
-              {/* <Route path="/business" element={<Contact contactTitle1={contactTitle1} contactTitle2={contactTitle2} email={email}/>} />
-              <Route path="/kids" element={<Kids/>} />
-              <Route path="*" element={<NotFound/>} /> */}
+              <Route path="/" element={<Fun rateCards={standardPackageData} />} />
+              <Route path="/business" element={<Business rateCards={standardPackageData}/>} />
+              <Route path="/kids" element={<Kids rateCards={kidsPackageData}/>} />
+              <Route path="*" element={<NotFound/>} />
             </Routes>
         </div>
       </Router>

@@ -1,7 +1,7 @@
 import React from "react";
 import PackageCard from '../components/PackageCard';
 
-const Index = (props) => { 
+const Fun = (props) => { 
   return (
     <div className="container">
       <div className="row">
@@ -15,4 +15,4 @@ const Index = (props) => {
   )
 }
 
-export default Index;
+export default Fun;
