@@ -30,6 +30,9 @@ function App() {
         <div>
           <Routes>
             <Route 
+              path="/" 
+              element={<Fun rateCards={standardPackageData} />} />
+            <Route 
               path="/fun" 
               element={<Fun rateCards={standardPackageData} />} />
             <Route
