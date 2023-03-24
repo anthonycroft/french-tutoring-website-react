@@ -7,3 +7,21 @@
     font-weight: bold;
     font-family: Helvetica;
 }
+
+#testimonials {
+    margin-bottom: 125px;
+}
+
+.testimonialsTitle {
+    color:#78B7E5; 
+    font-weight: bold; 
+    margin: -23px;  
+    font-size: 100px; 
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 450;
+}
+
+.T {
+    color:#EA5555 ;
+}

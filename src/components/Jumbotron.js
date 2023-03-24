@@ -6,13 +6,13 @@ import Calendly from "./Calendly";
 const Jumbotron = () => {
   return (
     <div>
+      <h1 className="display-4 text-center first-header">
+        Parlez-vous fran<span className="C">ç</span>ais?
+      </h1>
       <div className="jumbotron" id="fun">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <h1 className="display-4 text-center first-header">
-                Parlez-vous français?
-              </h1>
               <p className="lead text-center first-p">
                 Not yet? Parfait! Book your free French class today and start
                 speaking the language of Molière (or be able to order an

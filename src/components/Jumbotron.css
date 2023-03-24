@@ -7,6 +7,8 @@
     align-items: center;
     justify-content: center;
     border-radius: 60px 60px 60px 60px;
+    padding-top: 59px; ;
+    margin-bottom: 50px;
     
 
 }
@@ -49,7 +51,7 @@
   
   
 
-.first-header{    color: #FFFFFF;     font-weight: bold;}
+.first-header{    color:#EA5555;     font-weight: 450; margin: -23px;  font-size: 100px;}
 .first-p{    color:#ffffff;}
 
 @media screen and (max-width: 768px) {
@@ -82,3 +84,8 @@
     }
   }
   
+
+  .C {
+    color:  #78B7E5;
+    ;
+  }
