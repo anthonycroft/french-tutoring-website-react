@@ -43,7 +43,6 @@ const Business = (props) => {
         <Testimonials />
       </div>
 
-pm
       <section class="jumbotron food">
         <div class="container">
           <h1 class="display-4 text-center cuisine-heading section-heading">
