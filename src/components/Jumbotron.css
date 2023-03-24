@@ -51,14 +51,15 @@
   
   
 
-.first-header{   
+.first-header{ 
+ 
    color:#EA5555; 
   text-stroke: 1px black; 
    -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;    
    font-weight: 450; 
-   margin: -19px; 
-    font-size: 100px;
+   margin: -13px; 
+    font-size: 4rem;
   }
 
 .first-p{
@@ -67,7 +68,7 @@
 
 @media screen and (max-width: 768px) {
     /* styles for tablets and mobile devices */
-  
+
     #book {
       transform: scale(0.8);
     }
@@ -92,6 +93,12 @@
       padding: 10px;
       padding-bottom: 20px;
       text-align: center;
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    .first-header {
+      font-size: 5rem;
     }
   }
   

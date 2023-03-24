@@ -13,10 +13,12 @@
 }
 
 .testimonialsTitle {
+    position: relative;
+    top: -8px;
     color:#78B7E5; 
     font-weight: bold; 
-    margin: -18px;  
-    font-size: 100px; 
+    margin: -22px;  
+    font-size: 4rem; 
     text-align: center;
     margin-top: 25px;
     font-weight: 450;
@@ -26,6 +28,12 @@
 
 }
 
+
+@media only screen and (min-width: 600px) {
+    .testimonialsTitle {
+        font-size: 5rem;
+    }
+}
 /* .T {
     color:#EA5555 ;
 } */
