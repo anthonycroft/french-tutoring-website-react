@@ -15,7 +15,7 @@ const PackageCard = ({ title, subTitle, description, rate, btnMsg, link, bestVal
         <p className="card-text text-center">
           {description}
         </p>
-        <p className="card-text text-center">{rate}</p>
+        <p className="card-text text-center rate">{rate}</p>
         <div className="text-center">
             <button type="button" className="card-btn btn-secondary btn-sm button-font"><a className="btn-link" href={link}>{btnMsg}</a></button>
         </div>
