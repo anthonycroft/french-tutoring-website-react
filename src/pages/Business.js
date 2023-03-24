@@ -1,14 +1,26 @@
 import React from "react";
-import PackageCard from "../components/PackageCard";
-import navbarData from "../data/navbarData.json";
-import Navbar from "../components/Navbar";
-import "bootstrap/dist/css/bootstrap.min.css";
-import carambaLogo from "../assets/images/Caramba-logo.png";
-import UnsplashImg from "../components/UnsplashImg";
-import Jumbotron from "../components/Jumbotron";
+
+// components
 import Footer from "../components/Footer";
-import footerData from "../data/footerData.json";
+import Jumbotron from "../components/Jumbotron";
+import Navbar from "../components/Navbar";
+import PackageCard from "../components/PackageCard";
+import PillNavigationItem from "../components/PillNavigationItem";
 import Testimonials from "../components/Testimonials";
+import UnsplashImg from "../components/UnsplashImg";
+
+// data
+import footerData from "../data/footerData.json";
+import navbarData from "../data/navbarData.json";
+import pillNavigationData from "../data/pillNavigationData.json";
+
+// images
+import carambaLogo from "../assets/images/Caramba-logo.png";
+
+// css
+import "bootstrap/dist/css/bootstrap.min.css";
+
+// page layout
 const Business = (props) => {
   return (
     <>
@@ -79,6 +91,16 @@ const Business = (props) => {
           </div>
         </div>
       </footer>
+
+      <aside class="container" id="theme-buttons">
+        <div class="row">
+          <ul class="nav nav-pills nav-justified">
+            {pillNavigationData.map((item) => (
+              <PillNavigationItem {...item}/>
+            ))}
+          </ul>
+        </div>
+      </aside>
     </>
   );
 };

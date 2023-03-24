@@ -1,20 +1,16 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import "./App.css";
-// import pages
+
+// pages
 import Fun from "./pages/Fun";
 import Business from "./pages/Business";
 import Kids from "./pages/Kids";
 import NotFound from "./pages/NotFound";
 
-// import components
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-
-// import css
-
+// css
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// import data
+// data
 import standardPackageData from "./data/standardPackageData.json";
 import kidsPackageData from "./data/kidsPackageData.json";
 
@@ -27,16 +23,18 @@ import kidsPackageData from "./data/kidsPackageData.json";
 // import Carousel from './pages/Carousel'; -------> TO DO
 // import Modal from './pages/Modal'; -------> TO DO
 
-// const title = "Welcome to the Home Page";
-const siteTitle = "Welcome to the Fun Page";
-
 function App() {
   return (
     <div className="App">
       <Router>
         <div>
           <Routes>
-            <Route path="/" element={<Fun rateCards={standardPackageData} />} />
+            <Route 
+              path="/" 
+              element={<Fun rateCards={standardPackageData} />} />
+            <Route 
+              path="/fun" 
+              element={<Fun rateCards={standardPackageData} />} />
             <Route
               path="/business"
               element={<Business rateCards={standardPackageData} />}
@@ -55,6 +53,3 @@ function App() {
 
 export default App;
 
-{
-  /* <Navbar navbarElements={navbarData}/> */
-}

@@ -8,3 +8,65 @@
 .section-heading {
   margin-bottom: 50px;
 }
+
+/* SECTION FOR STYLING THE TRICOLORE FIXED THEME NAVBAR  */
+#theme-buttons {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  left: 0%;
+  opacity: 1;
+  width: 100px;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.business, .kids, .fun {
+  border-radius: 15px !important;
+  color: black !important;
+  border: 2px ridge  #ffffff !important;
+  margin: 0 0.25rem !important;
+  font-weight: bold !important;
+  font-family: sans-serif !important;
+  opacity: 1 !important;
+ 
+}
+
+.themer:is(:hover, :focus) {
+  box-shadow: rgb(250, 245, 250) 4px -2px 5px 1px !important;
+  border-radius: 15px !important;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+  scale: 1.1 !important;
+}
+
+.business {
+  background-color: #1fb1d6 !important;
+}
+
+.kids {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.fun {
+  background-color: #EA5555 !important;
+}
+
+.themer.active  {
+  scale: 1.1 !important;
+  border-radius: 15px !important;
+  border: 2px ridge #ffffff !important;
+  opacity: 1 !important;
+}
+
+.fun.active
+{
+  background-color: #EA5555 !important;
+}
+
+.business.active {
+  background-color: #78B7E5 !important;
+}
+
+.kids.active {
+  background-color: #FFFFFF !important;
+}
