@@ -32,7 +32,7 @@ const Kids = (props) => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="nav justify-content-center">
+            <ul className="navbar-nav ml-auto">
               {navbarData.map((nav) => (
                 <Navbar {...nav} />
               ))}
