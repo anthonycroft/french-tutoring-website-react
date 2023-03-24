@@ -25,21 +25,26 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Business = (props) => {
   return (
     <>
-      <div class="navbar navbar-expand-lg navbar-light nav justify-content-center mb-5 nav-bar-container">
-        <div class="container nav-bar-container">
+      <div className="navbar navbar-expand-lg navbar-light nav justify-content-center mb-5 nav-bar-container">
+        <div className="container nav-bar-container ml-2 mr-2">
           <img src={carambaLogo} alt="Caramba Logo" height="60vh" />
-          <ul className="nav justify-content-center">
-            {navbarData.map((nav) => (
-              <Navbar {...nav} />
-            ))}
-          </ul>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav ml-auto">
+              {navbarData.map((nav) => (
+                <Navbar {...nav} />
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
 
       <div className="row">
         <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
         {jumbotronData.filter((content) => content.id === 3)
-    .map((content) => <Jumbotron {...content} />)}
+          .map((content) => <Jumbotron {...content} />)}
         </div>
       </div>
 

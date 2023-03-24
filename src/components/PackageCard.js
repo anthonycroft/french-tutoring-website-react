@@ -11,7 +11,7 @@ const PackageCard = ({ title, subTitle, description, rate, btnMsg, link, bestVal
     {chartBestValue}
       <div className="card-body">
         <h5 className="card-title text-center mt-2 mb-3">{title}</h5>
-        <h6 class="card-subtitle mb-3 text-muted text-center">{subTitle}</h6>
+        <h6 className="card-subtitle mb-3 text-muted text-center">{subTitle}</h6>
         <p className="card-text text-center">
           {description}
         </p>
