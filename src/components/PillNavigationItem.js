@@ -1,7 +1,6 @@
 
 
 import React from 'react';
-import './PillNavigationItem.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const PillNavigationItem = ({ attrClass, dataNumber, attrId, href, text, attrAria }) => {

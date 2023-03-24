@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "https://kit.fontawesome.com/7408c6667b.js";
+// import "https://kit.fontawesome.com/7408c6667b.js";
 
 const Footer = ({ icon, link }) => {
   return (
