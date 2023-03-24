@@ -8,6 +8,7 @@ import UnsplashImg from "../components/UnsplashImg";
 import Jumbotron from "../components/Jumbotron";
 import Footer from "../components/Footer";
 import footerData from "../data/footerData.json";
+import Testimonials from "../components/Testimonials";
 const Fun = (props) => {
   return (
     <>
@@ -36,6 +37,10 @@ const Fun = (props) => {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="row">
+        <Testimonials/>
       </div>
 
       <section class="jumbotron food">
