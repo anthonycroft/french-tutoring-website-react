@@ -3,21 +3,21 @@ import "./Jumbotron.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Calendly from "./Calendly";
 
-const Jumbotron = () => {
+const Jumbotron = ({heading, paragraph, paragraphTwo}) => {
+  const secondParagraph = paragraphTwo ? <div className="lead text-center first-p">{paragraphTwo}</div> : null;
   return (
     <div>
       <h1 className="display-4 text-center first-header">
-        Parlez-vous fran<span className="C">ç</span>ais?
+        {heading}
       </h1>
       <div className="jumbotron" id="fun">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
               <p className="lead text-center first-p">
-                Not yet? Parfait! Book your free French class today and start
-                speaking the language of Molière (or be able to order an
-                apéritif in a Parisian bar)!
+               {paragraph}
               </p>
+              {secondParagraph}
               <div id="youtube-container" className="text-center mx-auto mb-5">
                 <div
                   style={{

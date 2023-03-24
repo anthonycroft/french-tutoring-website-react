@@ -51,8 +51,19 @@
   
   
 
-.first-header{    color:#EA5555;     font-weight: 450; margin: -23px;  font-size: 100px;}
-.first-p{    color:#ffffff;}
+.first-header{   
+   color:#EA5555; 
+  text-stroke: 1px black; 
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;    
+   font-weight: 450; 
+   margin: -19px; 
+    font-size: 100px;
+  }
+
+.first-p{
+      color:#ffffff;
+    }
 
 @media screen and (max-width: 768px) {
     /* styles for tablets and mobile devices */
