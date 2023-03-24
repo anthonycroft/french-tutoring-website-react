@@ -17,7 +17,7 @@ const UnsplashImg = function(props){
              console.log(err.message);
              setLoading(false);
           });
-    });
+    }, [props.query]);
  
     let fullURL = "";
     if (posts.results && posts.results.length > 0) {

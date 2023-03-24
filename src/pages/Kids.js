@@ -13,6 +13,7 @@ import UnsplashImg from "../components/UnsplashImg";
 import footerData from "../data/footerData.json";
 import navbarData from "../data/navbarData.json";
 import pillNavigationData from "../data/pillNavigationData.json";
+import jumbotronData from '../data/jumbotronData.json';
 
 // images
 import carambaLogo from "../assets/images/Caramba-logo.png";
@@ -37,7 +38,8 @@ const Kids = (props) => {
 
       <div className="row">
         <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
-          <Jumbotron></Jumbotron>
+        {jumbotronData.filter((content) => content.id === 2)
+    .map((content) => <Jumbotron {...content} />)}
         </div>
       </div>
 

@@ -7,3 +7,33 @@
     font-weight: bold;
     font-family: Helvetica;
 }
+
+#testimonials {
+    margin-bottom: 125px;
+}
+
+.testimonialsTitle {
+    position: relative;
+    top: -8px;
+    color:#78B7E5; 
+    font-weight: bold; 
+    margin: -22px;  
+    font-size: 4rem; 
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 450;
+    text-stroke: 1px black;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    .testimonialsTitle {
+        font-size: 5rem;
+    }
+}
+/* .T {
+    color:#EA5555 ;
+} */

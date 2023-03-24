@@ -1,13 +1,18 @@
 /* Jumbotron a.k.a content section */
 .jumbotron {
+    
     background-color: #EA5555;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 60px 60px 60px 60px;
+    padding-top: 59px; ;
+    margin-bottom: 50px;
     
 
 }
+
 
 
 #youtube-container {
@@ -46,12 +51,24 @@
   
   
 
-.first-header{    color: #FFFFFF;     font-weight: bold;}
-.first-p{    color:#ffffff;}
+.first-header{ 
+ 
+   color:#EA5555; 
+  text-stroke: 1px black; 
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;    
+   font-weight: 450; 
+   margin: -13px; 
+    font-size: 4rem;
+  }
+
+.first-p{
+      color:#ffffff;
+    }
 
 @media screen and (max-width: 768px) {
     /* styles for tablets and mobile devices */
-  
+
     #book {
       transform: scale(0.8);
     }
@@ -78,4 +95,15 @@
       text-align: center;
     }
   }
+
+  @media screen and (min-width: 500px) {
+    .first-header {
+      font-size: 5rem;
+    }
+  }
   
+
+  .C {
+    color:  #78B7E5;
+    ;
+  }
