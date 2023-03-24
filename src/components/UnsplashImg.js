@@ -17,7 +17,7 @@ const UnsplashImg = function(props){
              console.log(err.message);
              setLoading(false);
           });
-    }, []);
+    });
  
     let fullURL = "";
     if (posts.results && posts.results.length > 0) {
@@ -35,7 +35,7 @@ const UnsplashImg = function(props){
                 <img
                     className="unsplash-img"
                     src={fullURL || "https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?ixlib=rb-4.0.3&q=80&cs=tinysrgb&fm=jpg&crop=entropy"}
-                    alt="Cover photo from an Unsplash photo collection"
+                    alt="Unsplash collection"
                 />
                 </div>
             )}

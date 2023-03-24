@@ -1,29 +1,29 @@
 [
   {
     "id": 1,
-    "attrClass": "business active",
+    "attrClass": "nav-link business themer",
     "dataNumber": "1",
     "attrId": "theme-btn-one",
-    "href": "business.html",
+    "href": "/business",
     "text": "Business",
-    "aria": "page"
+    "attrAria": "page"
   },
   {
     "id": 2,
-    "attrClass": "kids",
+    "attrClass": "nav-link kids themer",
     "dataNumber": "2",
     "attrId": "theme-btn-two",
-    "href": "kids.html",
+    "href": "/kids",
     "text": "Kids",
-    "aria": null
+    "attrAria": null
   },
   {
     "id": 3,
-    "attrClass": "fun",
+    "attrClass": "nav-link fun themer",
     "dataNumber": "3",
     "attrId": "theme-btn-three",
-    "href": "fun.html",
+    "href": "/fun",
     "text": "Fun",
-    "aria": null
+    "attrAria": null
   }
 ]
