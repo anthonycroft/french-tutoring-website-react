@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import "bootstrap/dist/css/bootstrap.min.css";
 import carambaLogo from "../assets/images/Caramba-logo.png"
 import UnsplashImg from "../components/UnsplashImg";
+
 const Fun = (props) => { 
   return (
     <>

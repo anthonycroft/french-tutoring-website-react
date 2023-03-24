@@ -1,0 +1,16 @@
+
+.themer:is(:hover, :focus) {
+  box-shadow: rgb(250, 245, 250) 4px -2px 5px 1px;
+  border-radius: 15px;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  scale: 1.1;
+}
+
+.themer.active  {
+  scale: 1.1;
+  border-radius: 15px;
+  /* box-shadow: rgb(247, 5, 247) 4px -2px 5px 1px; */
+  border: 2px ridge #ffffff;
+  opacity: 1;
+  /* text-shadow: rgb(255, 255, 255) 2px -1px 5px; */
+}
