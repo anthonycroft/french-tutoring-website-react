@@ -60,10 +60,14 @@ const Fun = (props) => {
         </div>
       </div>
 
-      <div className="row" id="book">
+      <div className="row" id="bio">
         <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
-          {bioData.filter((about) => about.id ===3).map((about) => <Bio {...about} />)}
-          </div>
+          {bioData
+            .filter((about) => about.id === 3)
+            .map((about) => (
+              <Bio {...about} />
+            ))}
+        </div>
       </div>
 
       <div className="container" id="plans">
@@ -94,7 +98,7 @@ const Fun = (props) => {
       <footer className="footer" id="contact">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 h-100 text-center mx-auto">
+            <div className="col-lg-8 h-100 text-center mx-auto">
               <ul className="list-inline mb-2">
                 {footerData.map((footer) => (
                   <Footer {...footer} />
@@ -103,6 +107,7 @@ const Fun = (props) => {
               <div className="list-inline-item mr-3">
                 <a
                   className="nav-link privacy-policy-link"
+                  id="privacy"
                   href="https://beazach.github.io/french-tutoring-website/privacy.html"
                 >
                   Privacy Policy

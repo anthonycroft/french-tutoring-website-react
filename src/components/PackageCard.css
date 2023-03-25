@@ -1,15 +1,12 @@
-
-
-
 /* 3-Tier Price Cards */
 .card-title {
   border-radius: 20px;
 }
 
-.card { 
+.card {
   border-radius: 25px !important;
   border: 1px solid #1fb1d6 !important;
-  width: 15rem !important; 
+  width: 15rem !important;
   height: 25rem !important;
   position: relative;
 }
@@ -21,24 +18,23 @@
 .rate {
   position: absolute;
   bottom: 55px;
-  left: 50% ;
+  left: 50%;
   transform: translateX(-50%);
 }
 
 .card-btn {
-  background-color: #EA5555  ;
+  background-color: #ea5555;
   border-radius: 15px;
-  border: 1px solid #EA5555 ;
+  border: 1px solid #ea5555;
 
   position: absolute;
   bottom: 20px;
-  left: 50% ;
+  left: 50%;
   transform: translateX(-50%);
 
   height: 40px;
-  width: 150px ;
+  width: 150px;
   text-transform: uppercase;
-
 }
 
 .button-font {
@@ -49,17 +45,17 @@
   display: inline-block;
   position: relative;
   text-align: center;
-  align-items:right;
+  align-items: right;
   width: 85px;
-  background: #EA5555;
+  background: #ea5555;
   border-radius: 60px 60px 0px 0px;
   color: #ffffff;
   font-size: 10px;
   line-height: 12px;
   margin: 0 auto;
-  padding: 9px; 
+  padding: 9px;
   margin-top: -32px;
-  top: 50 px
+  top: 50 px;
 }
 
 a {

@@ -3,7 +3,7 @@
   {
     "id": 2,
     "title": "About Me",
-    "link": "https://form.jotform.com/230464330195350"
+    "link": "#bio"
   },
   { "id": 3, "title": "Plans and Pricing", "link": "#plans" },
   { "id": 4, "title": "Testimonials", "link": "#testimonials" },
