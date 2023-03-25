@@ -8,12 +8,14 @@ import PackageCard from "../components/PackageCard";
 import PillNavigationItem from "../components/PillNavigationItem";
 import Testimonials from "../components/Testimonials";
 import UnsplashImg from "../components/UnsplashImg";
+import Bio from "../components/Bio";
 
 // data
 import footerData from "../data/footerData.json";
 import navbarData from "../data/navbarData.json";
 import pillNavigationData from "../data/pillNavigationData.json";
 import jumbotronData from '../data/jumbotronData.json';
+import bioData from "../data/bioData.json";
 
 // images
 import carambaLogo from "../assets/images/Caramba-logo.png";
@@ -41,6 +43,12 @@ const Fun = (props) => {
         {jumbotronData.filter((content) => content.id === 1)
     .map((content) => <Jumbotron {...content} />)}
         </div>
+      </div>
+
+      <div className="row">
+        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
+          {bioData.filter((about) => about.id ===3).map((about) => <Bio {...about} />)}
+          </div>
       </div>
 
       <div className="container">
