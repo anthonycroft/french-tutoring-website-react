@@ -16,8 +16,10 @@ const Bio = ({title, paragraph, paragraphTwo, paragraphThree}) => {
                     {title}
                 </h1>
                 <p class="lead text-center">
-                    {paragraph}{paragraphTwo}{paragraphThree}
+                    {paragraph}
                     </p>
+                    <p class="lead text-center">{paragraphTwo}</p>
+                    <p class="lead text-center">{paragraphThree}</p>
                     <div class="text-center">
                         <img src={alliance} alt= "alliance francaise logo" height="80vh"></img>
                     </div>
