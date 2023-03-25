@@ -7,6 +7,14 @@
   font-weight: bold !important;
 }
 
+.nav-text:hover {
+  color: #154c79 !important;
+}
+
+.navbar-toggle:hover {
+  color: #154c79 !important;
+}
+
 /* .nav-wrapper {
   background-color: #ffffff !important;
 } */

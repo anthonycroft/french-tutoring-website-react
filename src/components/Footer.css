@@ -1,19 +1,30 @@
-.footer-color {
-  background-color: #ffea75;
-}
-
 .fa-brands {
   color: #78b7e5;
 }
 
 .fa-envelope {
   color: #78b7e5;
-}
-
-.privacy-policy-link {
-  color: #78b7e5;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .footer {
-  padding: 10px 10px 20px 10px;
+  padding-bottom: 20px;
+}
+
+.fa-brands:hover {
+  color: #154c79 !important;
+}
+
+.fa-envelope:hover {
+  color: #154c79 !important;
+}
+
+#privacy {
+  color: #78b7e5;
+  padding-bottom: 15px;
+}
+
+#privacy:hover {
+  color: #154c79 !important;
 }
