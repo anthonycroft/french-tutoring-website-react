@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Business à la française",
+        "paragraph": "Looking to expand your business across the Channel? Or simply trying to entertain your French clients to forge those important connections over a glass of digestif?",
+        "paragraphTwo": "It's a given that the French will be demanding clients and partners. Fait établi. It's in our DNA. But what better way to gain trust in business than speaking the same language?",
+        "paragraphThree": "Contact me and let's prepare your French business plan!"
+
+    },
+    {
+        "id": 2,
+        "title": "Salut ! Ça va ?",
+        "paragraph": "Learning French at school can be a daunting experience, and let's be honest, often puts people off learning foreign languages forever.",
+        "paragraphTwo":"It doesn't have to be this way. The key, in my opinion, is to tap into children's natural curiosity and motivation. So for each of my students, I try to adapt as much as possible to their personality or hobbies.",
+        "paragraphThree": "Are you interested? Book your free trial now!"
+
+    },
+    {
+        "id": 3,
+        "title": "French à la carte with Bertrand",
+        "paragraph": "Your knowledge of French is limited to `croissant`, `baguette` or `champagne` but you're hungry to speak more? Read on.",
+        "paragraphTwo": "I will support you to discover the subtleties of the language of Balzac, and get immersed in the French culture along the way. Because learning a language takes time, but it also takes motivation. And let's be honest, it can get boring very quickly. So why not make learning fun and combine it with getting to know the French culture - be it the cuisine of all French regions (I promise we don't just eat frogs' legs!), or French cinema or music?",
+        "paragraphThree": "Ready to start you French aventure? Allons-y!"
+    }
+]
+

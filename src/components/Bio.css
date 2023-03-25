@@ -1,0 +1,17 @@
+.about-Bertrand {
+    background-color: #ffffff;
+}
+
+.about-Bertrand-h1 {
+    color:#78B7E5;
+    font-weight: bold;
+}
+
+.Bertrand-icon {
+    /* display: inline-block;
+    position: relative; */
+    width: 300px;
+    height: 300px;
+    /* top: 5px;
+    left: 750px; */
+}
