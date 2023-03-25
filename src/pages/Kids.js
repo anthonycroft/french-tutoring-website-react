@@ -67,12 +67,6 @@ const Kids = (props) => {
           </div>
       </div>
 
-      <div className="row">
-        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
-          {bioData.filter((about) => about.id ===2).map((about) => <Bio {...about} />)}
-          </div>
-      </div>
-
       <div className="container" id="plans">
         <div className="row">
           {props.rateCards.map((card) => (

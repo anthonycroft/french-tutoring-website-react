@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import bertrandIcon from '../assets/images/Bertrand-Icon.png';
 import alliance from'../assets/images/af-piccy.png';
 
-const Bio = ({title, description}) => {
+const Bio = ({title, paragraph, paragraphTwo, paragraphThree}) => {
 
     return (
         <section className="jumbotron-1 about-Bertrand container" id="about">
@@ -16,7 +16,7 @@ const Bio = ({title, description}) => {
                     {title}
                 </h1>
                 <p class="lead text-center">
-                    {description}
+                    {paragraph}{paragraphTwo}{paragraphThree}
                     </p>
                     <div class="text-center">
                         <img src={alliance} alt= "alliance francaise logo" height="80vh"></img>
@@ -25,7 +25,6 @@ const Bio = ({title, description}) => {
          </section>
     
 )}
-
 
 export default Bio;
 
