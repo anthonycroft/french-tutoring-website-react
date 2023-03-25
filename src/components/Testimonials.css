@@ -15,16 +15,14 @@
 .testimonialsTitle {
     position: relative;
     top: -8px;
-    color:#78B7E5; 
+    color:#EA5555; 
     font-weight: bold; 
     margin: -22px;  
     font-size: 4rem; 
     text-align: center;
     margin-top: 25px;
     font-weight: 450;
-    text-stroke: 1px black;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
+    
 
 }
 
