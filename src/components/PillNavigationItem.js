@@ -8,8 +8,8 @@ const PillNavigationItem = ({ attrClass, dataNumber, attrId, href, text, attrAri
 
   return (
   
-    <li class="nav-item  p-1">
-      <a class={attrClass} data-number={dataNumber} id={attrId} aria-current={attrAria} href={href} >{text}</a>
+    <li className="nav-item  p-1">
+      <a className={attrClass} data-number={dataNumber} id={attrId} aria-current={attrAria} href={href} >{text}</a>
     </li>
 
   );

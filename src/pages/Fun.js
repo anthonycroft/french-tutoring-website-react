@@ -20,12 +20,18 @@ import bioData from "../data/bioData.json";
 // images
 import carambaLogo from "../assets/images/Caramba-logo.png";
 
+// audio
+import SoundClip from "../components/SoundClip";
+
 // css
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Fun = (props) => {
   return (
     <>
+      <div>
+        <SoundClip />
+      </div>
       <div className="navbar navbar-expand-lg navbar-light nav justify-content-center mb-5 nav-bar-container">
         <div className="container nav-bar-container ml-2 mr-2">
           <img src={carambaLogo} alt="Caramba Logo" height="60vh" />
