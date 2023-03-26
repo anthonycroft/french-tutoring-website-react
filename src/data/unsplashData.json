@@ -1,0 +1,79 @@
+[
+    {"id": "fun",
+     "queryList": [
+        {
+            "key": 1,
+            "buttonText": "La Tour Eiffel",
+            "queryName": "La+Tour+Eiffel"
+        },
+        {
+            "key": 2,
+            "buttonText": "Croque Monsieur",
+            "queryName": "Croque+Monsieur"
+        },
+        {
+            "key": 3,
+            "buttonText": "La Republique",
+            "queryName": "La+Republique"
+        },
+        {
+            "key": 4,
+            "buttonText": "Tricolore",
+            "queryName": "Tricolore"
+        },
+        {
+            "key": 5,
+            "buttonText": "L'Arc De Triomphe",
+            "queryName": "Arc+de+Triomphe"
+        }
+    ]
+    },
+    {"id": "business",
+     "queryList": [
+        {
+            "key": 1,
+            "queryName": "Reunion+d'affaires"
+        },
+        {
+            "key": 2,
+            "queryName": "Business"
+        },
+        {
+            "key": 3,
+            "queryName": "Briefcase"
+        },
+        {
+            "key": 4,
+            "queryName": "Cravat"
+        },
+        {
+            "key": 5,
+            "queryName": "Costume+d'affaires"
+        }
+    ]
+    },
+    {"id": "kids",
+     "queryList": [
+        {
+            "key": 1,
+            "queryName": "Tintin"
+        },
+        {
+            "key": 2,
+            "queryName": "Asterix"
+        },
+        {
+            "key": 3,
+            "queryName": "Obelix"
+        },
+        {
+            "key": 4,
+            "queryName": "Le+Petit+Prince"
+        },
+        {
+            "key": 5,
+            "queryName": "Le+Méchant+Loup"
+        }
+    ]
+    }
+]

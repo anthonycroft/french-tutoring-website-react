@@ -7,8 +7,10 @@ import Navbar from "../components/Navbar";
 import PackageCard from "../components/PackageCard";
 import PillNavigationItem from "../components/PillNavigationItem";
 import Testimonials from "../components/Testimonials";
-import UnsplashImg from "../components/UnsplashImg";
+
 import Bio from "../components/Bio";
+
+import UnsplashComp from "../components/UnsplashComp";
 
 // data
 import footerData from "../data/footerData.json";
@@ -91,14 +93,9 @@ const Kids = (props) => {
         <Testimonials />
       </div>
 
-      <section className="jumbotron food">
+      <section className="food">
         <div className="container">
-          <h1 className="display-4 text-center cuisine-heading section-heading">
-            Tintin
-          </h1>
-          <div className="container baguette-div">
-            <UnsplashImg query="tintin" />
-          </div>
+           <UnsplashComp unsplashItem={props.unsplashDataObject}/>
         </div>
       </section>
 

@@ -13,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // data
 import standardPackageData from "./data/standardPackageData.json";
 import kidsPackageData from "./data/kidsPackageData.json";
+import unsplashData from './data/unsplashData.json';
 
 // import Header from "./components/Header"; -------> TO DO
 // import Footer from './pages/Footer'; -------> TO DO
@@ -41,7 +42,7 @@ function App() {
             />
             <Route
               path="/kids"
-              element={<Kids rateCards={kidsPackageData} />}
+              element={<Kids rateCards={kidsPackageData} unsplashDataObject={unsplashData[0]} />}
             />
             <Route path="*" element={<NotFound />} />
           </Routes>
