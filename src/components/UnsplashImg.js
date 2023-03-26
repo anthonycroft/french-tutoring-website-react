@@ -21,8 +21,8 @@ const UnsplashImg = function(props){
  
     let fullURL = "";
     if (posts.results && posts.results.length > 0) {
-        fullURL = posts.results[1].cover_photo.urls.full;
-        console.log(posts.results[1].cover_photo.urls.full);
+        fullURL = posts.results[0].cover_photo.urls.regular;
+        console.log(posts.results[0].cover_photo.urls.regular);
     }
     
     return (
