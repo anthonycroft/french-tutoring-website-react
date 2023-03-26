@@ -1,0 +1,23 @@
+[  
+  {    
+    "name": "joie-de-vivre-albert-behar.mp3",
+    "path": "./sounds/joie-de-vivre-albert-behar.mp3"
+  },  
+  { 
+    "name": "le-petit-cafe-albert-behar.mp3",
+    "path": "./sounds/le-petit-cafe-albert-behar.mp3"
+  },
+  { 
+    "name": "sunshine-waltz.mp3",
+    "path": "./sounds/sunshine-waltz.mp3"
+  },
+  { 
+    "name": "café-crémiux.mp3",
+    "path": "./sounds/café-crémiux.mp3"
+  },
+  { 
+    "name": "la-loire.mp3",
+    "path": "./sounds/la-loire.mp3"
+  }
+
+]
