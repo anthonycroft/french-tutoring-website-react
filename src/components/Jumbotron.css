@@ -53,12 +53,10 @@
 
 .first-header{ 
  
-   color:#EA5555; 
-  text-stroke: 1px black; 
-   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;    
+   color:#78B7E5; 
+   
    font-weight: 450; 
-   margin: -13px; 
+   margin: -15px; 
     font-size: 4rem;
   }
 

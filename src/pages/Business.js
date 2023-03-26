@@ -8,12 +8,14 @@ import PackageCard from "../components/PackageCard";
 import PillNavigationItem from "../components/PillNavigationItem";
 import Testimonials from "../components/Testimonials";
 import UnsplashImg from "../components/UnsplashImg";
+import Bio from "../components/Bio";
 
 // data
 import footerData from "../data/footerData.json";
 import navbarData from "../data/navbarData.json";
 import pillNavigationData from "../data/pillNavigationData.json";
 import jumbotronData from "../data/jumbotronData.json";
+import bioData from "../data/bioData.json";
 
 // images
 import carambaLogo from "../assets/images/Caramba-logo.png";
@@ -59,6 +61,16 @@ const Business = (props) => {
         </div>
       </div>
 
+      <div className="row" id="bio">
+        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
+          {bioData
+            .filter((about) => about.id === 1)
+            .map((about) => (
+              <Bio {...about} />
+            ))}
+        </div>
+      </div>
+
       <div className="container" id="plans">
         <div className="row">
           {props.rateCards.map((card) => (
@@ -96,6 +108,7 @@ const Business = (props) => {
               <div className="list-inline-item mr-3">
                 <a
                   className="nav-link privacy-policy-link"
+                  id="privacy"
                   href="https://beazach.github.io/french-tutoring-website/privacy.html"
                 >
                   Privacy Policy

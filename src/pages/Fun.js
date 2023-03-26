@@ -8,6 +8,7 @@ import PackageCard from "../components/PackageCard";
 import PillNavigationItem from "../components/PillNavigationItem";
 import Testimonials from "../components/Testimonials";
 import UnsplashImg from "../components/UnsplashImg";
+import Bio from "../components/Bio";
 import SoundClip from "../components/SoundClip";
 
 // data
@@ -15,6 +16,7 @@ import footerData from "../data/footerData.json";
 import navbarData from "../data/navbarData.json";
 import pillNavigationData from "../data/pillNavigationData.json";
 import jumbotronData from "../data/jumbotronData.json";
+import bioData from "../data/bioData.json";
 
 // images
 import carambaLogo from "../assets/images/Caramba-logo.png";
@@ -62,6 +64,16 @@ const Fun = (props) => {
         </div>
       </div>
 
+      <div className="row" id="bio">
+        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
+          {bioData
+            .filter((about) => about.id === 3)
+            .map((about) => (
+              <Bio {...about} />
+            ))}
+        </div>
+      </div>
+
       <div className="container" id="plans">
         <div className="row">
           {props.rateCards.map((card) => (
@@ -90,7 +102,7 @@ const Fun = (props) => {
       <footer className="footer" id="contact">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 h-100 text-center mx-auto">
+            <div className="col-lg-8 h-100 text-center mx-auto">
               <ul className="list-inline mb-2">
                 {footerData.map((footer) => (
                   <Footer {...footer} />
@@ -99,6 +111,7 @@ const Fun = (props) => {
               <div className="list-inline-item mr-3">
                 <a
                   className="nav-link privacy-policy-link"
+                  id="privacy"
                   href="https://beazach.github.io/french-tutoring-website/privacy.html"
                 >
                   Privacy Policy
