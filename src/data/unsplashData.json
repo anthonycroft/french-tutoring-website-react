@@ -32,23 +32,28 @@
      "queryList": [
         {
             "key": 1,
-            "queryName": "Reunion+d'affaires"
+            "buttonText": "Reunion d'affaires",
+            "queryName": "Reunion+affaires"
         },
         {
             "key": 2,
+            "buttonText": "Business",
             "queryName": "Business"
         },
         {
             "key": 3,
+            "buttonText": "Briefcase",
             "queryName": "Briefcase"
         },
         {
             "key": 4,
+            "buttonText": "Cravat",
             "queryName": "Cravat"
         },
         {
             "key": 5,
-            "queryName": "Costume+d'affaires"
+            "buttonText": "Costume d'affaires",
+            "queryName": "Costume+affaires"
         }
     ]
     },
@@ -56,22 +61,27 @@
      "queryList": [
         {
             "key": 1,
+            "buttonText": "Tintin",
             "queryName": "Tintin"
         },
         {
             "key": 2,
+            "buttonText": "Asterix",
             "queryName": "Asterix"
         },
         {
             "key": 3,
+            "buttonText": "Obelix",
             "queryName": "Obelix"
         },
         {
             "key": 4,
+            "buttonText": "Le Petit Prince",
             "queryName": "Le+Petit+Prince"
         },
         {
             "key": 5,
+            "buttonText": "Le Mechant Loup",
             "queryName": "Le+Méchant+Loup"
         }
     ]
