@@ -9,7 +9,6 @@ import PillNavigationItem from "../components/PillNavigationItem";
 import Testimonials from "../components/Testimonials";
 import UnsplashImg from "../components/UnsplashImg";
 import Bio from "../components/Bio";
-import SoundClip from "../components/SoundClip";
 
 // data
 import footerData from "../data/footerData.json";
@@ -20,6 +19,9 @@ import bioData from "../data/bioData.json";
 
 // images
 import carambaLogo from "../assets/images/Caramba-logo.png";
+
+// audio
+import SoundClip from "../components/SoundClip";
 
 // css
 import "bootstrap/dist/css/bootstrap.min.css";
