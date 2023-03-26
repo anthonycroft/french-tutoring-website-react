@@ -16,7 +16,7 @@ const Calendly = () => {
     <div>
       <div
         className="calendly-inline-widget"
-        data-url="https://calendly.com/teamcarambatesting/1-2-1-tutoring-session-free-trial-parents"
+        data-url="https://calendly.com/teamcarambatesting/1-2-1-tutoring-session-free-trial-edition"
         style={{ minWidth: "320px", width: "100%", height: "630px" }}
       ></div>
     </div>
