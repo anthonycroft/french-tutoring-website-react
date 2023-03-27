@@ -56,7 +56,7 @@
    color:#78B7E5; 
    
    font-weight: 450; 
-   margin: -15px; 
+   margin: -12px; 
     font-size: 4rem;
   }
 
@@ -97,6 +97,7 @@
   @media screen and (min-width: 500px) {
     .first-header {
       font-size: 5rem;
+      margin: -14px; 
     }
   }
   

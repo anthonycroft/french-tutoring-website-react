@@ -18,3 +18,9 @@
 /* .nav-wrapper {
   background-color: #ffffff !important;
 } */
+
+@media screen and (max-width: 768px) {
+.nav-bar-container {
+  margin-bottom: -80px !important;
+  }
+}
