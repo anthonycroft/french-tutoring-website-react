@@ -1,0 +1,89 @@
+[
+    {"id": "fun",
+     "queryList": [
+        {
+            "key": 1,
+            "buttonText": "La Tour Eiffel",
+            "queryName": "La+Tour+Eiffel"
+        },
+        {
+            "key": 2,
+            "buttonText": "Croque Monsieur",
+            "queryName": "Croque+Monsieur"
+        },
+        {
+            "key": 3,
+            "buttonText": "La Republique",
+            "queryName": "La+Republique"
+        },
+        {
+            "key": 4,
+            "buttonText": "Tricolore",
+            "queryName": "Tricolore"
+        },
+        {
+            "key": 5,
+            "buttonText": "L'Arc De Triomphe",
+            "queryName": "Arc+de+Triomphe"
+        }
+    ]
+    },
+    {"id": "business",
+     "queryList": [
+        {
+            "key": 1,
+            "buttonText": "Reunion d'affaires",
+            "queryName": "Reunion+affaires"
+        },
+        {
+            "key": 2,
+            "buttonText": "Business",
+            "queryName": "Business"
+        },
+        {
+            "key": 3,
+            "buttonText": "Briefcase",
+            "queryName": "Briefcase"
+        },
+        {
+            "key": 4,
+            "buttonText": "Cravat",
+            "queryName": "Cravat"
+        },
+        {
+            "key": 5,
+            "buttonText": "Costume d'affaires",
+            "queryName": "Costume+affaires"
+        }
+    ]
+    },
+    {"id": "kids",
+     "queryList": [
+        {
+            "key": 1,
+            "buttonText": "Tintin",
+            "queryName": "Tintin"
+        },
+        {
+            "key": 2,
+            "buttonText": "Asterix",
+            "queryName": "Asterix"
+        },
+        {
+            "key": 3,
+            "buttonText": "Obelix",
+            "queryName": "Obelix"
+        },
+        {
+            "key": 4,
+            "buttonText": "Le Petit Prince",
+            "queryName": "Le+Petit+Prince"
+        },
+        {
+            "key": 5,
+            "buttonText": "Le Mechant Loup",
+            "queryName": "Le+Méchant+Loup"
+        }
+    ]
+    }
+]

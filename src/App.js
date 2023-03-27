@@ -13,6 +13,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // data
 import standardPackageData from "./data/standardPackageData.json";
 import kidsPackageData from "./data/kidsPackageData.json";
+import unsplashData from './data/unsplashData.json';
 
 function App() {
   return (
@@ -22,17 +23,17 @@ function App() {
           <Routes>
             <Route 
               path="/" 
-              element={<Fun rateCards={standardPackageData} />} />
+              element={<Fun rateCards={standardPackageData} unsplashDataObject={unsplashData[0]}/>} />
             <Route 
               path="/fun" 
-              element={<Fun rateCards={standardPackageData} />} />
+              element={<Fun rateCards={standardPackageData} unsplashDataObject={unsplashData[0]}/>} />
             <Route
               path="/business"
-              element={<Business rateCards={standardPackageData} />}
+              element={<Business rateCards={standardPackageData} unsplashDataObject={unsplashData[1]} />}
             />
             <Route
               path="/kids"
-              element={<Kids rateCards={kidsPackageData} />}
+              element={<Kids rateCards={kidsPackageData} unsplashDataObject={unsplashData[2]} />}
             />
             <Route path="*" element={<NotFound />} />
           </Routes>
