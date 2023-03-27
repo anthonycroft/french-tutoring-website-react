@@ -13,8 +13,8 @@
         },
         {
             "key": 3,
-            "buttonText": "La Republique",
-            "queryName": "La+Republique"
+            "buttonText": "La République",
+            "queryName": "La+République"
         },
         {
             "key": 4,
@@ -32,7 +32,7 @@
      "queryList": [
         {
             "key": 1,
-            "buttonText": "Reunion d'affaires",
+            "buttonText": "Réunion d'affaires",
             "queryName": "Reunion+affaires"
         },
         {
@@ -47,8 +47,8 @@
         },
         {
             "key": 4,
-            "buttonText": "Cravat",
-            "queryName": "Cravat"
+            "buttonText": "Cravate",
+            "queryName": "Cravate"
         },
         {
             "key": 5,
@@ -66,22 +66,22 @@
         },
         {
             "key": 2,
-            "buttonText": "Asterix",
-            "queryName": "Asterix"
+            "buttonText": "Astérix Le Gaul",
+            "queryName": "Astérix+Le+Gaul"
         },
         {
             "key": 3,
-            "buttonText": "Obelix",
-            "queryName": "Obelix"
+            "buttonText": "Obélix",
+            "queryName": "Obélix"
         },
         {
             "key": 4,
-            "buttonText": "Le Petit Prince",
-            "queryName": "Le+Petit+Prince"
+            "buttonText": "Le Pétit Prince",
+            "queryName": "Le+Pétit+Prince"
         },
         {
             "key": 5,
-            "buttonText": "Le Mechant Loup",
+            "buttonText": "Le Méchant Loup",
             "queryName": "Le+Méchant+Loup"
         }
     ]
