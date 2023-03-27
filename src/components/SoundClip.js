@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import audioFiles from "../data/audioFiles";
+import "./SoundClip.css";
 
 function SoundClip() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -16,9 +17,7 @@ function SoundClip() {
       randomFileRef.current = randomFile;
       
       // Set the audio source to the new file
-      // audioRef.current.src = `./sounds/${randomFile.name}`;
       audioRef.current.src = `${randomFile.path}`;
-      console.log("${randomFile.path} is " + `${randomFile.path}`);
       audioRef.current.volume = 1;
       audioRef.current.play();
     }
@@ -31,7 +30,7 @@ function SoundClip() {
     const randomIndex = Math.floor(Math.random() * audioFiles.length);
     const randomFile = audioFiles[randomIndex];
     randomFileRef.current = randomFile;
-    // audioRef.current.src = `./sounds/${randomFile.name}`;
+
     audioRef.current.src = `${randomFile.path}`;
     const audio = audioRef.current;
     

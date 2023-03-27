@@ -1,0 +1,11 @@
+button {
+  border-radius: 15px !important;
+  color: black !important;
+  border: 2px ridge  #ffffff !important;
+  margin-top: 0.25rem !important;
+  margin-left: 0.25rem !important;
+  font-weight: bold !important;
+  font-family: sans-serif !important;
+  width: 100px;
+  background-color: #78B7E5 !important;
+}

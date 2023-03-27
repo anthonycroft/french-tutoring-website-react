@@ -14,15 +14,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import standardPackageData from "./data/standardPackageData.json";
 import kidsPackageData from "./data/kidsPackageData.json";
 
-// import Header from "./components/Header"; -------> TO DO
-// import Footer from './pages/Footer'; -------> TO DO
-// import Jumbotron from './pages/Jumbotron'; -------> TO DO
-// import Pill Navigattion from './pages/PillNavigation'; -------> TO DO
-// import Card from './pages/Card'; -------> TO DO
-// import Form from './pages/Form'; -------> TO DO
-// import Carousel from './pages/Carousel'; -------> TO DO
-// import Modal from './pages/Modal'; -------> TO DO
-
 function App() {
   return (
     <div className="App">
