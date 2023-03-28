@@ -35,7 +35,7 @@ const Kids = (props) => {
       <div>
         <SoundClip />
       </div>
-      <div className="navbar navbar-expand-lg navbar-light nav justify-content-center mb-5 nav-bar-container">
+      <div className="navbar navbar-expand-lg navbar-light nav justify-content-center mb-1 mt-1 nav-bar-container">
         <div className="container nav-bar-container ml-2 mr-2">
           <img src={carambaLogo} alt="Caramba Logo" height="60vh" />
           <button
@@ -60,7 +60,7 @@ const Kids = (props) => {
       </div>
 
       <div className="row" id="book">
-        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
+        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-3">
           {jumbotronData
             .filter((content) => content.id === 2)
             .map((content) => (
