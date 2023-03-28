@@ -3,20 +3,18 @@ import "./Jumbotron.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Calendly from "./Calendly";
 
-const Jumbotron = ({heading, paragraph, paragraphTwo}) => {
-  const secondParagraph = paragraphTwo ? <div className="lead text-center first-p">{paragraphTwo}</div> : null;
+const Jumbotron = ({ heading, paragraph, paragraphTwo }) => {
+  const secondParagraph = paragraphTwo ? (
+    <div className="lead text-center first-p">{paragraphTwo}</div>
+  ) : null;
   return (
     <div>
-      <h1 className="display-4 text-center first-header">
-        {heading}
-      </h1>
       <div className="jumbotron" id="fun">
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <p className="lead text-center first-p">
-               {paragraph}
-              </p>
+              <h1 className="display-4 text-center first-header">{heading}</h1>
+              <p className="lead text-center first-p">{paragraph}</p>
               {secondParagraph}
               <div id="youtube-container" className="text-center mx-auto mb-5">
                 <div
