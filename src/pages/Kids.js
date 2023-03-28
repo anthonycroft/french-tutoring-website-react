@@ -47,7 +47,7 @@ const Kids = (props) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
@@ -60,7 +60,7 @@ const Kids = (props) => {
       </div>
 
       <div className="row" id="book">
-        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-3">
+        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
           {jumbotronData
             .filter((content) => content.id === 2)
             .map((content) => (

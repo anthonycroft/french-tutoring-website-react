@@ -57,7 +57,7 @@ const Fun = (props) => {
       </div>
 
       <div className="row" id="book">
-        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-3">
+        <div className="col-lg-12 col-md-12 col-sm-12 text-center py-5">
           {jumbotronData
             .filter((content) => content.id === 1)
             .map((content) => (
