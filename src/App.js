@@ -1,4 +1,6 @@
+import { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ReactGA from "react-ga";
 
 // pages
 import Fun from "./pages/Fun";
@@ -15,7 +17,15 @@ import standardPackageData from "./data/standardPackageData.json";
 import kidsPackageData from "./data/kidsPackageData.json";
 import unsplashData from './data/unsplashData.json';
 
+// Initialize Google Analytics with your tracking ID
+ReactGA.initialize("G-B4QTKDLC8B");
+
 function App() {
+  // Track page views on route change
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <div className="App">
       <Router>
@@ -44,4 +54,3 @@ function App() {
 }
 
 export default App;
-
