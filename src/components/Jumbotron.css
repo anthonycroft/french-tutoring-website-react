@@ -9,11 +9,7 @@
     border-radius: 60px 60px 60px 60px;
     padding-top: 59px; ;
     margin-bottom: 50px;
-    
-
 }
-
-
 
 #youtube-container {
     max-width: 100%;
@@ -21,8 +17,6 @@
     height: auto;
     margin: 0 auto;
   }
-  
-  
 
 .jumbotron .display-4 {
     text-align: center;
@@ -49,18 +43,17 @@
     padding-right: 0;
   }
   
-  
 
-.first-header{ 
+.first-header { 
  
-   color:#78B7E5; 
+  color:#78B7E5; 
    
-   font-weight: 450; 
-   margin: -12px; 
-    font-size: 4rem;
+  font-weight: 450; 
+  margin: -12px; 
+  font-size: 5rem;
   }
 
-.first-p{
+.first-p {
       color:#ffffff;
     }
 
@@ -79,8 +72,11 @@
   @media screen and (max-width: 500px) {
 
     #real-player {
-
         width: 360px;
+    }
+
+    .first-header {
+      font-size: 3rem !important;
     }
 
   }
@@ -92,15 +88,9 @@
       padding-bottom: 20px;
       text-align: center;
     }
+
   }
 
-  @media screen and (min-width: 500px) {
-    .first-header {
-      font-size: 5rem;
-      margin: -14px; 
-    }
-  }
-  
 
   .C {
     color:  #78B7E5;
