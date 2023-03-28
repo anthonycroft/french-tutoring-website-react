@@ -4,11 +4,9 @@ import VocalVideo from "./VocalVideo.js";
 function Testimonials() {
   return (
     <div>
-      <h1 className="testimonialsTitle">
-        Tes<span className="T">t</span>imonials
-      </h1>
       <section className="jumbotron testimonials" id="testimonials">
         <div className="container">
+          <h1 className="testimonialsTitle">Testimonials</h1>
           <VocalVideo />
         </div>
       </section>

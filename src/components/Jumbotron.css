@@ -43,18 +43,22 @@
     padding-right: 0;
   }
   
+  
 
-.first-header { 
- 
-  color:#78B7E5; 
-   
-  font-weight: 450; 
-  margin: -12px; 
-  font-size: 5rem;
+  .first-header{ 
+    position: relative;
+    color: white; 
+    margin-top: -50px;
+    font-size: 4rem; 
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 450;
   }
+  
 
 .first-p {
       color:#ffffff;
+      margin-top: 25px;
     }
 
 @media screen and (max-width: 768px) {
