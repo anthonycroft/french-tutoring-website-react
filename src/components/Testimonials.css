@@ -28,10 +28,16 @@
 
 
 @media only screen and (min-width: 600px) {
+
     .testimonialsTitle {
         font-size: 5rem;
     }
 }
-/* .T {
-    color:#EA5555 ;
-} */
+
+@media screen and (max-width: 500px) {
+
+    .testimonialsTitle{
+      font-size: 3rem !important;
+    }
+
+  }
