@@ -18,7 +18,7 @@ function SoundClip() {
       
       // Set the audio source to the new file
       audioRef.current.src = `${randomFile.path}`;
-      audioRef.current.volume = 1;
+      audioRef.current.volume = 0.5;
       audioRef.current.play();
     }
     setIsPlaying(!isPlaying);
@@ -39,7 +39,7 @@ function SoundClip() {
 
     // set the initial volume to 1
     if (audioRef.current.volume != null) {
-      audioRef.current.volume = 1;
+      audioRef.current.volume = 0.5;
     }
 
     // start the fade-out effect after 9 seconds (1000 milliseconds = 1 second)
@@ -63,7 +63,7 @@ function SoundClip() {
     return () => {
       // reset the volume to 1 when the component unmounts
       if (audio != null) {
-        audio.volume = 1;
+        audio.volume = 0.5;
       }
     };
   }, []);
@@ -71,7 +71,7 @@ function SoundClip() {
   return (
     <div>
       <audio ref={audioRef} src="" />
-      <button onClick={togglePlay}>{isPlaying ? 'Pause' : 'Play'}</button>
+      <button class="music-play" onClick={togglePlay}>{isPlaying ? 'Pause' : 'Play'}</button>
     </div>
   );
 }
