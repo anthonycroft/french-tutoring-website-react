@@ -5,7 +5,7 @@ const ButtonBar = ({ unsplashItem, handleBtnClick }) => {
   return (
     <div className="row d-flex justify-content-center">
       {unsplashItem.queryList.map((content) => (
-        <div className="col-sm-2 col-md-2 col-lg-2" key={content.key}>
+        <div className="col-lg-2" key={content.key}>
           <button
             className="btn btn-unsplash w-100"
             onClick={() => handleBtnClick(content.queryName, content.buttonText)}

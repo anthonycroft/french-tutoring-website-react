@@ -8,6 +8,7 @@ border-radius: 20px;
 background-color: #78B7E5 !important;
 color:aliceblue !important;
 opacity: 0.8;
+margin-bottom: 1px;
 }
 
 .btn:hover, .btn:active {
