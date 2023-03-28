@@ -3,15 +3,17 @@
 }
 
 .btn-unsplash {
-border: 1px solid rgb(163, 161, 161) !important;
-border-radius: 20px;
-background-color: #78B7E5 !important;
-color:aliceblue !important;
-opacity: 0.8;
+    border: 1px solid rgb(163, 161, 161) !important;
+    border-radius: 20px;
+    background-color: #78B7E5 !important;
+    color:aliceblue !important;
+    opacity: 0.8;
+    margin-bottom: 1px;
+    /* align-items: stretch !important; */
 }
 
 .btn:hover, .btn:active {
     color: white !important;
     border: 1px solid rgb(248, 245, 245) !important;
     opacity: 1;
-    }
+}

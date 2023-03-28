@@ -19,7 +19,7 @@ const UnsplashComp = ({ unsplashItem }) => {
       <h1 className="display-4 text-center cuisine-heading section-heading">
         {selectedBtnText}
       </h1>
-      <div className="row">
+      <div className="">
         <ButtonBar
           unsplashItem={unsplashItem}
           handleBtnClick={handleBtnClick}

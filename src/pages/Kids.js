@@ -35,7 +35,7 @@ const Kids = (props) => {
       <div>
         <SoundClip />
       </div>
-      <div className="navbar navbar-expand-lg navbar-light nav justify-content-center mb-5 nav-bar-container">
+      <div className="navbar navbar-expand-lg navbar-light nav justify-content-center mb-1 mt-1 nav-bar-container">
         <div className="container nav-bar-container ml-2 mr-2">
           <img src={carambaLogo} alt="Caramba Logo" height="60vh" />
           <button
@@ -47,7 +47,7 @@ const Kids = (props) => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
