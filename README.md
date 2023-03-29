@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# my-french-tutor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+French tutoring website - learn French with Bertrand.
 
-## Available Scripts
+## Deployed Application
 
-In the project directory, you can run:
+[French With Bertrand in React](https://myfrenchtutor.netlify.app/)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is an application designed to enable a user to book a French tutoring lesson with the tutor, Bertrand. The user will be able to do this directly via the embedded Calendly widget (for free trial) or via a submission form (for follow-up lessons).
+The page has 3 different themes/styling options, which the user can choose from depending on their learning goal. They are:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. French for business
+2. French for kids
+3. French for fun
 
-### `npm test`
+There is also a Youtube widget embedded, which populates a video to the page based on a call to the Youtube Data API.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Unsplash API is also made use of, to populate high-definition images to the page showcasing different culturally relevant references (e.g. Tintin for the kids version, French cuisine for the Fun version, etc.)
 
-### `npm run build`
+The application was built in React.js.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### run npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To install node modules
 
-### `npm run eject`
+### run npm install react-ga
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To install Google Analytics
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The way to use the deployed application is to:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Use the booking form to book a one-on-one tutor session with Bertrand, the tutor.
+2. Click one of the buttons on the theme-toggling navbar to switch the page between the theme of "Business", "Kids", or "Fun".
 
-## Learn More
+## Screenshot of Deployed Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Desktop
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![full page](/src/assets/images/full-page.png)
 
-### Code Splitting
+### Mobile
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![full page](/src/assets/images/full-page-m.png)
 
-### Analyzing the Bundle Size
+## Link to Presentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<a href="Presentation.pdf">Presentation</a>
 
-### Making a Progressive Web App
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This repository has been an active collaboration from four Github users.
+In alphabetical order:
 
-### Advanced Configuration
+1. [Anna Benari](https://github.com/annabenari)
+2. [Apechhya Gurung](https://github.com/AG-93)
+3. [Beata Zacharska](https://github.com/beazach)
+4. [Benedict McElroy](https://github.com/benedictcodeshere)
+5. [Tony Croft](https://github.com/anthonycroft)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Please refer to the license in the repo (MIT License).
