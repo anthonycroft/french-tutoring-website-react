@@ -15,7 +15,7 @@ The page has 3 different themes/styling options, which the user can choose from 
 2. French for kids
 3. French for fun
 
-There is also a Youtube widget embedded, which populates a video to the page based on a call to the Youtube Data API.
+There is also a Youtube widget embedded, which populates a video about the tutor, hosted on Youtube, to the page.
 
 The Unsplash API is also made use of, to populate high-definition images to the page showcasing different culturally relevant references (e.g. Tintin for the kids version, French cuisine for the Fun version, etc.)
 
@@ -27,9 +27,9 @@ The application was built in React.js.
 
 To install node modules
 
-### run npm install react-ga
+### run npm install react-ga react-slick slick-carousel
 
-To install Google Analytics
+To install Google Analytics and Slick.
 
 ## Usage
 
@@ -54,7 +54,7 @@ The way to use the deployed application is to:
 
 ## Credits
 
-This repository has been an active collaboration from four Github users.
+This repository has been an active collaboration from five Github users.
 In alphabetical order:
 
 1. [Anna Benari](https://github.com/annabenari)
